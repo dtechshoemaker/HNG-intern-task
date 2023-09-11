@@ -6,7 +6,7 @@ import pytz
 def info_endpoint(request):
     # Extract query parameters slack_name and track from the GET request
     slack_name = request.GET.get('slack_name', 'dtechshoemaker')
-    track = request.GET.get('track', 'Stage1')
+    track = request.GET.get('track', 'Backend')
 
     # Get the current day of the week in full
     current_day = datetime.now().strftime('%A')
