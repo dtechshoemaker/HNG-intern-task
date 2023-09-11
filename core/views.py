@@ -23,7 +23,7 @@ def info_endpoint(request):
         return JsonResponse({'error': 'UTC time validation failed'}, status=400)
 
     # Construct the GitHub URLs based on your project
-    github_file_url = 'https://github.com/yourusername/yourrepo/yourfile.py'
+    github_file_url = 'https://github.com/dtechshoemaker/HNG-intern-task/blob/main/core/views.py'
     github_repo_url = 'https://github.com/dtechshoemaker/HNG-intern-task'
     # Create the response JSON
     data = {
