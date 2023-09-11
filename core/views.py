@@ -24,8 +24,7 @@ def info_endpoint(request):
 
     # Construct the GitHub URLs based on your project
     github_file_url = 'https://github.com/yourusername/yourrepo/yourfile.py'
-    github_repo_url = 'https://github.com/yourusername/yourrepo'
-
+    github_repo_url = 'https://github.com/dtechshoemaker/HNG-intern-task'
     # Create the response JSON
     data = {
         'slack_name': slack_name,
